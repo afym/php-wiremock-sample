@@ -1,0 +1,17 @@
+{
+  "credentials" : {
+    "oauth" : {
+      "user" : "sosalakcouriosasakapearson",
+      "password" : "wathsadsyouawjwatch"
+    }
+  },
+  "operations" : {
+    "wsdl" : "hhttp://www.dneonline.com/calculator.asmx?WSDL"
+  },
+  "messages" : {
+    "endpoint" : {
+      "math" : "http://numbersapi.com/{number}/math",
+      "trivia" : "http://numbersapi.com/{number}"
+    }
+  }
+}

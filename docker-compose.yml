@@ -1,0 +1,13 @@
+version: "3.0"
+services:
+  afym_php_wiremock:
+    build: ./docker
+    container_name: afym.wiremock
+    volumes:
+      - ./src:/usr/application/src
+      - ./test:/usr/application/test
+      - ./vendor:/usr/application/vendor
+      - ./composer.json:/usr/application/composer.json
+      - ./phpunit.xml:/usr/application/phpunit.xml
+    ports:
+      - 8585:80
